@@ -1,0 +1,83 @@
+body {
+  margin:5px;
+}
+
+h1{
+  font-size: 30px;
+}
+
+button {
+  padding: 10px 50px 10px 50px;
+  border: none;
+  text-align: center;
+  background-color: rgb(195, 168, 218);
+  color: black;
+  cursor: pointer;
+  margin: 3px;
+}
+
+button:hover {
+  background-color: rgb(122, 90, 150);
+}
+
+input {
+  border: solid 1px #CCC;
+  margin: 3px;
+}
+
+.redirecionar {
+  font-size: 12px;
+  display: inline;
+  margin-left: 20px;
+}
+
+.campoRecuperado {
+  font-weight: bold;
+  display: inline;
+}
+
+.valorRecuperado {
+  display: inline;
+}
+
+/** Ajuste das caixas dos campos **/
+.campo {
+  position: relative;
+  max-width: 400px;
+  color: dimgray;
+  line-height: 30px;
+  font-size: 16px;
+}
+
+/** Ajuste do espaço do input **/
+.valorInput > input {
+	width: 100%;
+	font-size: 16px;
+	padding: 20px 20px 5px 20px;
+	line-height: 20px;
+  color: black;
+}
+
+/** Ajuste do título do input  **/
+.valorInput > .tituloCampo {
+	position: absolute;
+	top: 12px;
+	left: 15px;
+	color: dimgray;
+	transition: top .2s;
+}
+
+/** Ajuste do título ao adicionar valor no campo **/
+.valorInput > input:focus + .tituloCampo,
+.valorInput > input:valid + .tituloCampo {
+	top: 0;
+}
+
+/** Ajustes para a data só aparecer no preenchimento **/
+input[type="date"] {
+  color: rgba(0,0,0,0);
+}
+
+input[type="date"]:focus, input[type="date"]:valid {
+  color: rgba(0,0,0,1);
+}
