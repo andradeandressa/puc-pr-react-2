@@ -53,7 +53,7 @@ class Login extends Component{
 
         <button onClick={this.acessar}>Acessar</button>
 
-        <div class="redirecionar">Ainda não possui cadastro? <Link to="/login">Cadastre-se</Link>.</div>
+        <div class="redirecionar">Ainda não possui cadastro? <Link to="/cadastro">Cadastre-se</Link>.</div>
 
       </div>
 

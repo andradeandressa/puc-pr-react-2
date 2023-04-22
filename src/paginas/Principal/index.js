@@ -34,6 +34,7 @@ class Principal extends Component{
         <div>
 
           <h1>Página Principal</h1>
+          <h2>Dados do usuário</h2>
 
           <div class="campoRecuperado">Nome:</div>
           <div class="valorRecuperado"> { this.state.nome } <br/> </div>
